@@ -27,13 +27,13 @@ body {
   color: #d4c391;
   padding: 10px;
 }
-.container,
-.footer {
+.container {
   width: 960px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 .introducao {
   background: url(img/arcane-introducao.jpg);
@@ -47,15 +47,24 @@ body {
   font-weight: bold;
   color: #fff;
   padding: 20px;
+  margin-bottom: 20px;
 }
-.btn {
-  display: inline-block;
-  color: #fff;
+.introducao-texto p:last-child {
+  margin-bottom: 30px;
+}
+.btn a {
+  max-width: 260px;
+  max-height: 60px;
   text-transform: uppercase;
   font-size: 24px;
-  background-color: #c89b3c;
+  text-align: center;
   padding: 10px 30px;
-  border: 1px solid #065a7f;
+  color: #fff;
+  background-color: #065a7f;
+  border: 1px solid #111;
 }
-.btn:hover {
+.btn a:hover {
+  color: #111;
+  background: #d4c391;
+  border-color: #fff;
 }
