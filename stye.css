@@ -33,6 +33,7 @@ body {
 .introducao {
   background: url(img/arcane-introducao.jpg) no-repeat center;
   background-size: cover;
+  width: 100%;
   height: 550px;
   margin-top: 10px;
 }
@@ -78,8 +79,12 @@ p {
 .sobre-enacra {
   background: url(img/arcane-pink.jpg) no-repeat center;
   background-size: cover;
-  height: 400px;
+  height: 500px;
+  width: 100%;
   margin-top: 10px;
+}
+.sobre-enacra .container {
+  justify-content: space-between, center;
 }
 .sobre-enacra-texto h2 {
   max-width: 900px;
@@ -98,7 +103,8 @@ p {
 .herois {
   background: url(img/arcane-blue.jpg) no-repeat center;
   background-size: cover;
-  height: 550px;
+  height: 500px;
+  width: 100%;
 }
 .herois h2 {
   text-align: center;
@@ -107,4 +113,10 @@ p {
   color: #fff;
   padding: 20px;
   margin: 20px;
+}
+.herois .container {
+  justify-content: space-between;
+}
+.heroi:hover {
+  border: 1px solid #d4c391;
 }
