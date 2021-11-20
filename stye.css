@@ -94,3 +94,17 @@ p {
   text-align: center;
   font-size: 18px;
 }
+/*Estilizando seção dos heróis*/
+.herois {
+  background: url(img/arcane-blue.jpg) no-repeat center;
+  background-size: cover;
+  height: 550px;
+}
+.herois h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
