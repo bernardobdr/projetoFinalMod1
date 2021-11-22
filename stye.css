@@ -20,7 +20,7 @@ body {
 }
 /*Estilização header*/
 .header {
-  max-width: 100%;
+  width: 100%;
   height: 60px;
   background: #065a7f;
 }
@@ -31,7 +31,7 @@ body {
 }
 /*Estilização introdução da página*/
 .introducao {
-  background: url(img/arcane-introducao.jpg);
+  background: url(imagensFundo/arcane-introducao.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 550px;
@@ -138,4 +138,8 @@ p {
   margin: 0 auto;
   color: #d4c391;
   font-size: 18px;
+}
+
+@media screen and (700px);
+ {
 }
