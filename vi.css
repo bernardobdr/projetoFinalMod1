@@ -1,21 +1,17 @@
 /*Estilizando a página vi*/
 .pagina-heroi {
-  background: #ede0ce;
+  background: url(img/herois/vi/vi-wallpaper.jpg) no-repeat center;
+  background: cover;
+  height: 700px;
+  width: 100%;
 }
-.pagina-heroi .container {
-  width: 960px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.descricao-vi {
+  width: 500px;
 }
-.vi-imagem {
-  margin: 10px 0;
-  border: 2px solid #111;
-}
-.descricao-vi p {
-  font-size: 16px;
-  color: #111;
-  width: 450px;
-  background: blue;
+.descricao-vi span {
+  font-size: 24px;
+  color: white;
+  text-align: right;
+  margin: 50px;
+  padding: 40px;
 }
