@@ -20,7 +20,7 @@ body {
 }
 /*Estilização header*/
 .header {
-  width: 100%;
+  max-width: 100%;
   height: 60px;
   background: #065a7f;
 }
@@ -106,9 +106,10 @@ p {
 }
 .herois h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 38px;
   font-weight: bold;
-  color: #fff;
+  color: #d4c391;
+  text-transform: uppercase;
   padding: 20px;
 }
 .herois .container {
@@ -119,7 +120,8 @@ p {
   align-items: center;
 }
 .heroi img {
-  margin: 10px;
+  width: 300px;
+  height: 350px;
 }
 .heroi:hover {
   border: 2px solid #d4c391;
@@ -137,9 +139,22 @@ p {
   color: #d4c391;
   font-size: 18px;
 }
-@media (768px) {
-  .header h1 {
-    width: 500px;
-    text-align: center.;
+
+@media only screen and (min-width: 768px) and (max-width:959px){
+  .header{
+    width: 100%;
+    text-align: center;
+  }
+  .header h2, p{
+    text-align: center;
+  }
+	.container{
+		width: 768px;
+	}
+
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
   }
 }

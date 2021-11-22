@@ -1,21 +1,27 @@
 /*Estilizando a página Silco*/
-.pagina-heroi {
-  background: #ede0ce;
-}
-.container {
+
+.pagine-heroi .container {
   width: 960px;
   margin: 10px auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .pagina-heroi {
-  background: url(img/herois/silco/silco-wall.jpg) no-repeat center;
+  background: #d4c391;
+}
+.pagina-heroi {
+  background: url(img/herois/silco/silco-plano-de-fundo.jpg) no-repeat center;
   background: cover;
-  height: 600px;
+  height: 500px;
   width: 100%;
+  margin-bottom: 10px;
 }
 .descricao-silco p {
-  font-size: 16px;
-  color: #111;
+  font-size: 24px;
+  color: #fff;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
 }
