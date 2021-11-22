@@ -1,21 +1,20 @@
-/*Estilizando a página vi*/
+/*Estilizando a página Silco*/
 .pagina-heroi {
   background: #ede0ce;
 }
-.pagina-heroi .container {
+.container {
   width: 960px;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .vi-imagem {
+  width: ;
   margin: 10px 0;
   border: 2px solid #111;
 }
-.descricao-vi p {
+.descricao-silco p {
   font-size: 16px;
   color: #111;
-  width: 450px;
-  background: blue;
 }
