@@ -31,7 +31,7 @@ body {
 }
 /*Estilização introdução da página*/
 .introducao {
-  background: url(img/arcane-introducao.jpg);
+  background: url(img/arcane-introducao.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 550px;
@@ -138,4 +138,26 @@ p {
   margin: 0 auto;
   color: #d4c391;
   font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) and (max-width:959px){
+  .header{
+    width: 100%;
+    text-align: center;
+  }
+  .header h2, p{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .introducao{
+    
+  }
+
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
 }
