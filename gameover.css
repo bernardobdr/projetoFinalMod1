@@ -1,0 +1,6 @@
+.gameover {
+  background: url(imagensFundo/arcane-introducao.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
