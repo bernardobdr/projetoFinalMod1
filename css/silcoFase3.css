@@ -1,0 +1,32 @@
+.introducao-silco-fase2 {
+  background: url(../imagensFundo/azulCompleto.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 570px;
+}
+.caminho-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  width: 1080px;
+  margin: 0 auto;
+}
+.caminho {
+  margin-top: 50px;
+  width: 300px;
+  height: 400px;
+  color: #fff;
+  font-size: 16px;
+  background: #396c7e;
+  border: 1px solid #111;
+}
+.caminho h2 {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.caminho p {
+  font-size: 16px;
+}
