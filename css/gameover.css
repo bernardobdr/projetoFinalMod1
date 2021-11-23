@@ -4,11 +4,13 @@
   width: 100%;
   height: 600px;
 }
+.introducao-gameover {
+  margin-bottom: 100px;
+}
 .introducao-gamerover p {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   color: #fff;
   padding: 20px;
-  margin: 30px;
 }
