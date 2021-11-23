@@ -4,3 +4,11 @@
   width: 100%;
   height: 600px;
 }
+.final-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  width: 1080px;
+  margin: 0 auto;
+}
