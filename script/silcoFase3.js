@@ -1,4 +1,4 @@
-var mensagemBemVindo = alert("Parabéns! Você venceu.");
+var mensagemBemVindo = alert("Parabéns! Você passou para fase 3.");
 
 function decidirOpcao() {
   var escolha;
@@ -10,7 +10,7 @@ function decidirOpcao() {
   );
 
   if (escolha == "1") {
-    return (location = "http://127.0.0.1:5501/silcoFaseFinal.html");
+    return (location = "http://127.0.0.1:5501/final.html");
   } else if (escolha == "2") {
     return (location = "http://127.0.0.1:5501/gameover.html");
   } else {

@@ -1,0 +1,16 @@
+.final {
+  background: url(../imagensFundo/gameover.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.final-texto {
+  margin-bottom: 100px;
+}
+.final-texto p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px;
+}
