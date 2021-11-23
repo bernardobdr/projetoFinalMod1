@@ -1,4 +1,4 @@
-var mensagemBemVindo = alert("Olá seja bem-vindo, seu personagem é o Silco.");
+var mensagemBemVindo = alert("Parabéns! Você passou para fase 2.");
 
 function decidirOpcao() {
   var escolha;
@@ -8,7 +8,7 @@ function decidirOpcao() {
   escolha = prompt("Decida o que fazer! Digite o número correspondente:\n1\n2");
 
   if (escolha == "1") {
-    return (location = "http://127.0.0.1:5501/silcoFase2.html");
+    return (location = "http://127.0.0.1:5501/silcoFase3.html");
   } else if (escolha == "2") {
     return (location = "http://127.0.0.1:5501/gameover.html");
   } else {
@@ -16,4 +16,4 @@ function decidirOpcao() {
   }
   return decidirOpcao;
 }
-setTimeout(decidirOpcao, 2000);
+setTimeout(decidirOpcao, 1000);
