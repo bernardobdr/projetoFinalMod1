@@ -134,12 +134,13 @@ p {
   color: #fff;
 }
 .heroi:hover {
-  border: 2px solid #d4c391;
+  border: 4px solid #d4c391;
 }
 .heroi span {
   text-align: center;
   padding: 5px;
   font-size: 18px;
+  text-align: justify;
 }
 /*Estilizando footer*/
 .footer {
