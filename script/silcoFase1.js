@@ -1,19 +1,25 @@
-var mensagemBemVindo = alert("Olá seja bem-vindo, seu personagem é o Silco.");
+var mensagemBemVindo = alert("Olá seja bem-vindo, seu personagem é a Silco.");
 
-function decidirOpcao() {
+function decidirCaminho() {
   var escolha;
-  var opcaoUm = "1";
-  var opcaoDois = "2";
+  var escolhaUm = "1";
+  var escolhaDois = "2";
 
-  escolha = prompt("Decida o que fazer! Digite o número correspondente: 1 ou 2");
-
-  if (escolha == "1") {
-    return (location = "http://127.0.0.1:5501/silcoFase2.html");
-  } else if (escolha == "2") {
-    return (location = "http://127.0.0.1:5501/gameover.html");
-  } else {
-    return alert("Número inválido");
-  }
-  return decidirOpcao;
+  escolha = prompt(
+    "Decida o que seu herói deve fazer! Digite o caminho que seu herói deve percorrer 1 ou 2"
+  );
+  while (true)
+    if (escolha == "1") {
+      window.location.href = "../silcoFase2.html";
+      break;
+    } else if (escolha == "2") {
+      window.location.href = "../gameover.html";
+    } else {
+      alert("Digite apenas 1 ou 2");
+      escolha = prompt(
+        "Decida o que seu herói deve fazer! Digite o caminho que seu herói deve percorrer 1 ou 2"
+      );
+    }
+  return decidirCaminho;
 }
-setTimeout(decidirOpcao, 1000);
+setTimeout(decidirCaminho, 1000);
