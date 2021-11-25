@@ -11,7 +11,7 @@ function decidirCaminho() {
       window.location.href = "./silcoFase2.html";
       break;
     } else if (escolha == "2") {
-      window.location.href = "../gameover.html";
+      window.location.href = "./gameover.html";
     } else {
       alert("Digite apenas 1 ou 2");
       escolha = prompt("Decida o que seu herói deve fazer! Escolha 1 ou 2");

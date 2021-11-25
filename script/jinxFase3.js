@@ -10,10 +10,10 @@ function decidirCaminho() {
   );
   while (true)
     if (escolha == "1") {
-      window.location.href = "../final.html";
+      window.location.href = "./final.html";
       break;
     } else if (escolha == "2") {
-      window.location.href = "../gameover.html";
+      window.location.href = "./gameover.html";
     } else {
       alert("Digite apenas 1 ou 2");
       escolha = prompt(
