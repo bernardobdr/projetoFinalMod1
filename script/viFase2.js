@@ -6,7 +6,7 @@ function decidirCaminho() {
   var escolhaDois = "2";
 
   escolha = prompt(
-    "Decida o que seu herói deve fazer! Digite o caminho que seu herói deve percorrer 1 ou 2"
+    "Decida o que seu herói deve fazer! Escolha 1 ou 2"
   );
   while (true)
     if (escolha == "1") {
@@ -17,7 +17,7 @@ function decidirCaminho() {
     } else {
       alert("Digite apenas 1 ou 2");
       escolha = prompt(
-        "Decida o que seu herói deve fazer! Digite o caminho que seu herói deve percorrer 1 ou 2"
+        "Decida o que seu herói deve fazer! Escolha 1 ou 2"
       );
     }
   return decidirCaminho;
