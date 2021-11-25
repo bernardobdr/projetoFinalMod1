@@ -15,16 +15,12 @@
 .caminho {
   margin-top: 50px;
   width: 300px;
-  height: 400px;
+  height: 360px;
   color: #fff;
   font-size: 16px;
   background: #396c7e;
   opacity: 0.7;
   border: 1px solid #111;
-}
-.caminho:nth-child(2),
-.caminho:nth-child(3) {
-  height: 300px;
 }
 .caminho h2 {
   text-align: center;
