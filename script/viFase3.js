@@ -1,4 +1,4 @@
-var mensagemBemVindo = alert("Parabéns, você está na fase 2.");
+var mensagemBemVindo = alert("Parabéns, você está na fase 3.");
 
 function decidirCaminho() {
   var escolha;

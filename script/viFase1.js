@@ -1,4 +1,4 @@
-var mensagemBemVindo = alert("Olá seja bem-vindo, seu personagem é a Vi.");
+var mensagemBemVindo = alert("Olá seja bem-vindo, seu personagem é a Violet.");
 
 function decidirCaminho() {
   var escolha;
